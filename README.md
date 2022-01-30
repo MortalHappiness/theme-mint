@@ -1,19 +1,19 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
-#### mint
+#### mint fish theme
 > A theme for [Oh My Fish][omf-link].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.0.0-007EC7.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
-<br/>
+<br />
 
 
 ## Install
 
 ```fish
-$ omf install mint
+omf install mint
 ```
 
 
@@ -26,18 +26,21 @@ $ omf install mint
 ## Screenshot
 
 <p align="center">
-<img src="{{SCREENSHOT_URL}}">
+  <img src="screenshot.png">
 </p>
 
+## Credits
+
+* Inspired by https://github.com/ribugent/theme-gentoo and modified to follow Linux Mint default bash $PS1
+* [Linux Mint](https://linuxmint.com/) is a Linux distribution.
 
 # License
 
-[MIT][mit] © [MortalHappiness][author] et [al][contributors]
+[MIT][mit] © [MortalHappiness][author]
 
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/theme-mint/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
