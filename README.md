@@ -19,9 +19,14 @@ omf install mint
 
 ## Features
 
-* Lorem ipsum dolor sit amet.
-* Consectetur adipisicing elit.
-
+* When not in git folder, looks exactly the same as the default Linux Mint bash $PS1
+* When in git folder
+  * Show red branch name when the working directory is dirty
+  * Show green branch name when all files are in the staging area
+  * Show bold cyan branch name when the working directory is clean
+* Show red status code when the previous command has error
+* Display hostname in red when in a SSH session
+* Show current timestamp on the right prompt
 
 ## Screenshot
 
@@ -31,7 +36,8 @@ omf install mint
 
 ## Credits
 
-* Inspired by https://github.com/ribugent/theme-gentoo and modified to follow Linux Mint default bash $PS1
+* Based on https://github.com/ribugent/theme-gentoo and modified to follow Linux Mint default bash $PS1
+* Git status function modified from https://github.com/oh-my-fish/theme-gitstatus
 * [Linux Mint](https://linuxmint.com/) is a Linux distribution.
 
 # License
