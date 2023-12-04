@@ -27,6 +27,7 @@ omf install mint
 * Show red status code when the previous command has error
 * Display hostname in red when in a SSH session
 * Show current timestamp on the right prompt
+* You can define custom prompt prefix by defining `fish_prompt_custom_prefix` and `fish_right_prompt_custom_prefix` functions
 
 ## Screenshot
 

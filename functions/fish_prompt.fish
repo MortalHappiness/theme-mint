@@ -42,6 +42,11 @@ function fish_prompt
 
   # Output the prompt, left to right
 
+  # Display custom prefix
+  if functions -q fish_prompt_custom_prefix
+    fish_prompt_custom_prefix
+  end
+
   # Display 'user@host:'
   echo -n -s $green_bold (whoami) $color_host @ (hostname) $normal ':'
 
